@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sliding-window-rate-limiter"
+version = "0.1.0"
+description = "Rate limiting with the sliding window log and sliding window counter algorithms"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "joecoder12" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
